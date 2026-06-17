@@ -82,8 +82,6 @@ import { categories, portfolioItems } from '../data/portfolio.js'
 
 const activeCat = ref('Todos')
 const filtered = computed(() =>
-  activeCat.value === 'Todos'
-    ? portfolioItems
-    : portfolioItems.filter(p => p.cat === activeCat.value)
+  activeCat.value === 'Todos' ? portfolioItems : portfolioItems.filter(p => p.cat === activeCat.value)
 )
 </script>

@@ -3,31 +3,46 @@
     <TheHeader />
     <main>
       <HeroSection />
-      <ServicesSection />
-      <PortfolioSection />
-      <AboutSection />
-      <ProcessSection />
-      <CtaBand />
-      <ContactSection />
+      <LazySection placeholder="60vh">
+        <ServicesSection />
+      </LazySection>
+      <LazySection placeholder="80vh">
+        <PortfolioSection />
+      </LazySection>
+      <LazySection placeholder="60vh">
+        <AboutSection />
+      </LazySection>
+      <LazySection placeholder="50vh">
+        <ProcessSection />
+      </LazySection>
+      <LazySection placeholder="40vh">
+        <CtaBand />
+      </LazySection>
+      <LazySection placeholder="70vh">
+        <ContactSection />
+      </LazySection>
     </main>
-    <TheFooter />
+    <LazySection placeholder="20vh">
+      <TheFooter />
+    </LazySection>
     <TweaksPanel />
   </div>
 </template>
 
 <script setup>
 import { onMounted } from 'vue'
-import TheHeader      from './components/TheHeader.vue'
-import HeroSection    from './components/HeroSection.vue'
+import TheHeader       from './components/TheHeader.vue'
+import HeroSection     from './components/HeroSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import PortfolioSection from './components/PortfolioSection.vue'
-import AboutSection   from './components/AboutSection.vue'
-import ProcessSection from './components/ProcessSection.vue'
-import CtaBand        from './components/CtaBand.vue'
-import ContactSection from './components/ContactSection.vue'
-import TheFooter      from './components/TheFooter.vue'
-import TweaksPanel    from './components/TweaksPanel.vue'
-import { useTweaks }  from './composables/useTweaks.js'
+import AboutSection    from './components/AboutSection.vue'
+import ProcessSection  from './components/ProcessSection.vue'
+import CtaBand         from './components/CtaBand.vue'
+import ContactSection  from './components/ContactSection.vue'
+import TheFooter       from './components/TheFooter.vue'
+import TweaksPanel     from './components/TweaksPanel.vue'
+import LazySection     from './components/LazySection.vue'
+import { useTweaks }   from './composables/useTweaks.js'
 
 const { applyTweaks } = useTweaks()
 

@@ -24,6 +24,9 @@ export default {
         mono:    ['"Space Mono"', 'ui-monospace', 'monospace'],
       },
       maxWidth: { container: '1200px' },
+      transitionTimingFunction: {
+        reveal: 'cubic-bezier(.2,.8,.2,1)',
+      },
     },
   },
   plugins: [],

@@ -125,13 +125,13 @@ section[id] { scroll-margin-top: 84px; }
 /* Process connector */
 .step-line { background: linear-gradient(90deg, rgba(16,110,190,.0), rgba(16,110,190,.6) 20%, rgba(15,252,190,.7) 80%, rgba(15,252,190,0)); }
 
-/* Reveal animation (via v-reveal directive) */
+/* Reveal — estado inicial e final escritos com utilities Tailwind via @apply */
 .reveal {
-  opacity: 0;
-  transform: translateY(22px);
-  transition: opacity .7s ease, transform .7s cubic-bezier(.2,.8,.2,1);
+  @apply opacity-0 translate-y-5 transition-all duration-700 ease-reveal;
 }
-.reveal.is-in { opacity: 1; transform: none; }
+.reveal.is-in {
+  @apply opacity-100 translate-y-0;
+}
 
 /* Portfolio transition */
 .folio-move,
@@ -147,7 +147,7 @@ section[id] { scroll-margin-top: 84px; }
 .ring-glow:focus-visible { outline:none; box-shadow:0 0 0 2px #05080c, 0 0 0 4px rgba(15,252,190,.6); }
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal { opacity: 1 !important; transform: none !important; transition: none; }
+  .reveal { @apply opacity-100 translate-y-0; transition: none; }
   .hero-fallback::before,
   .hero-fallback::after,
   .scanline { animation: none; }

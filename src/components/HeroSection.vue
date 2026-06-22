@@ -64,6 +64,6 @@ import { waLink, heroStats } from '../data/constants.js'
 const videoSrc = ref('')
 
 onMounted(() => {
-  videoSrc.value = '/Drone/drone_06.mp4'
+  videoSrc.value = 'https://pub-8c3e4308a94c4528a085cf91c8140cf6.r2.dev/drone_04.mp4'
 })
 </script>

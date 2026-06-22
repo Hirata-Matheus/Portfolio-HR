@@ -4,34 +4,38 @@
     <div class="max-w-container mx-auto px-5 sm:px-8 grid lg:grid-cols-[1fr_1.1fr] gap-12 lg:gap-16">
 
       <!-- Info -->
-      <div v-reveal>
-        <span class="font-mono text-[12px] tracking-[0.3em] uppercase text-mint">/ Contato</span>
-        <h2 class="mt-4 font-display font-bold text-white text-[clamp(2rem,4vw,3rem)] leading-[1.05] tracking-tight">
-          Vamos tirar seu projeto do chão
-        </h2>
-        <p class="mt-5 text-[17px] text-slate-300/80 leading-relaxed max-w-md">
-          Conte o que você precisa capturar. Respondemos rápido com as melhores opções para o seu objetivo.
-        </p>
+      <div>
+        <div v-reveal>
+          <span class="font-mono text-[12px] tracking-[0.3em] uppercase text-mint">/ Contato</span>
+          <h2 class="mt-4 font-display font-bold text-white text-[clamp(2rem,4vw,3rem)] leading-[1.05] tracking-tight">
+            Vamos tirar seu projeto do chão
+          </h2>
+          <p class="mt-5 text-[17px] text-slate-300/80 leading-relaxed max-w-md">
+            Conte o que você precisa capturar. Respondemos rápido com as melhores opções para o seu objetivo.
+          </p>
+        </div>
+
         <div class="mt-9 space-y-3">
-          <a v-for="ch in channels" :key="ch.label"
+          <a v-for="(ch, i) in channels" :key="ch.label"
+             v-reveal="120 + i * 80"
              :href="ch.href" :target="ch.ext ? '_blank' : '_self'" rel="noopener"
-             class="flex items-center gap-4 glass rounded-2xl p-4 hover:border-mint/40 hover:bg-mint/[.03] transition group">
-            <span class="grid place-items-center w-12 h-12 rounded-xl bg-white/5 text-mint border border-white/8 group-hover:bg-mint group-hover:text-ink-950 transition">
-              <span class="ms text-[24px]">{{ ch.icon }}</span>
+             class="flex items-center gap-3 sm:gap-4 glass rounded-2xl px-4 py-3.5 sm:p-4 hover:border-mint/40 hover:bg-mint/[.03] transition group overflow-hidden">
+            <span class="shrink-0 grid place-items-center w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-white/5 text-mint border border-white/8 group-hover:bg-mint group-hover:text-ink-950 transition">
+              <span class="ms text-[22px] sm:text-[24px]">{{ ch.icon }}</span>
             </span>
-            <span class="min-w-0">
-              <span class="block text-[12px] font-mono uppercase tracking-wider text-slatey/70">{{ ch.label }}</span>
-              <span class="block text-[15.5px] font-semibold text-white truncate">{{ ch.value }}</span>
+            <span class="min-w-0 flex-1">
+              <span class="block text-[11px] sm:text-[12px] font-mono uppercase tracking-wider text-slatey/70">{{ ch.label }}</span>
+              <span class="block text-[14px] sm:text-[15.5px] font-semibold text-white truncate">{{ ch.value }}</span>
             </span>
-            <span class="ms text-[18px] text-slatey/40 ml-auto group-hover:text-mint group-hover:translate-x-1 transition">north_east</span>
+            <span class="ms shrink-0 text-[18px] text-slatey/40 group-hover:text-mint group-hover:translate-x-1 transition">north_east</span>
           </a>
         </div>
       </div>
 
       <!-- Form -->
-      <div v-reveal>
-        <form @submit.prevent="submitForm" class="glass rounded-3xl p-6 sm:p-9" novalidate>
-          <div class="grid sm:grid-cols-2 gap-5">
+      <div v-reveal="200">
+        <form @submit.prevent="submitForm" class="glass rounded-3xl p-5 sm:p-9" novalidate>
+          <div class="grid sm:grid-cols-2 gap-4 sm:gap-5">
             <div class="sm:col-span-2">
               <label for="f-nome" class="block text-[13px] font-semibold text-slate-200 mb-2">Nome</label>
               <input id="f-nome" v-model.trim="form.nome" type="text" autocomplete="name" placeholder="Seu nome"

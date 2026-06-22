@@ -2,7 +2,7 @@
   <footer class="border-t border-white/8 bg-ink-950 pt-16 pb-9">
     <div class="max-w-container mx-auto px-5 sm:px-8">
       <div class="grid md:grid-cols-[1.4fr_1fr_1fr] gap-10 md:gap-8">
-        <div>
+        <div v-reveal>
           <a href="#inicio" class="inline-flex mb-5">
             <img src="/images/HR_Drone_logo_transparente_melhorado.png" alt="HR Drone" class="h-12 w-auto object-contain" />
           </a>
@@ -26,7 +26,7 @@
           </div>
         </div>
 
-        <div>
+        <div v-reveal="100">
           <h4 class="font-mono text-[11px] tracking-[0.25em] uppercase text-slatey/60 mb-5">Navegação</h4>
           <ul class="space-y-3">
             <li v-for="l in nav" :key="l.id">
@@ -35,7 +35,7 @@
           </ul>
         </div>
 
-        <div>
+        <div v-reveal="200">
           <h4 class="font-mono text-[11px] tracking-[0.25em] uppercase text-slatey/60 mb-5">Contato</h4>
           <ul class="space-y-3 text-[14.5px]">
             <li>
@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <div class="mt-12 pt-7 border-t border-white/8 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div v-reveal="100" class="mt-12 pt-7 border-t border-white/8 flex flex-col sm:flex-row items-center justify-between gap-3">
         <p class="text-[12.5px] text-slatey/55">© {{ year }} HR Drone — Todos os direitos reservados.</p>
         <p class="font-mono text-[11px] tracking-wider text-slatey/40">Aerial Imaging · Made with precision</p>
       </div>

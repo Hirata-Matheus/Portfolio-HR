@@ -1,3 +1,2 @@
-
-# Large media assets — serve locally or via CDN
-Drone/
+node_modules/
+dist/

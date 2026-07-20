@@ -49,8 +49,8 @@
               :src="item.src"
               class="absolute inset-0 w-full h-full object-cover"
               muted loop playsinline preload="metadata"
-              @mouseenter="$event.target.play()"
-              @mouseleave="e => { e.target.pause(); e.target.currentTime = 0 }"
+              @mouseenter="!isMobile && $event.target.play()"
+              @mouseleave="!isMobile && ($event.target.pause(), $event.target.currentTime = 0)"
               @click="e => e.target.paused ? e.target.play() : e.target.pause()"
             ></video>
             <div v-if="!item.src" class="absolute inset-0 grid place-items-center text-white/15">
@@ -61,7 +61,7 @@
 
             <span v-if="item.type === 'video'"
                   class="absolute top-3 right-3 z-10 grid place-items-center w-9 h-9 rounded-full bg-ink-950/60 backdrop-blur border border-white/15 text-mint">
-              <span class="ms fill text-[18px]">play_arrow</span>
+              <span class="ms fill text-[18px]">{{ isMobile ? 'touch_app' : 'play_arrow' }}</span>
             </span>
 
             <figcaption class="absolute inset-x-0 bottom-0 z-10 p-4 sm:p-5 bg-gradient-to-t from-ink-950 via-ink-950/70 to-transparent translate-y-2 opacity-90 group-hover:translate-y-0 group-hover:opacity-100 transition">
@@ -84,4 +84,6 @@ const activeCat = ref('Todos')
 const filtered = computed(() =>
   activeCat.value === 'Todos' ? portfolioItems : portfolioItems.filter(p => p.cat === activeCat.value)
 )
+
+const isMobile = window.matchMedia('(hover: none) and (pointer: coarse)').matches
 </script>

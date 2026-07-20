@@ -10,8 +10,8 @@ export const portfolioItems = [
 
   // Vídeos
   { id:  4, cat: 'Eventos', title: 'Pedido de casamento',             type: 'video', span: 'row-span-2',            code: 'DR-004', src: 'https://pub-8c3e4308a94c4528a085cf91c8140cf6.r2.dev/drone_01.mp4' },
-  { id:  7, cat: 'Eventos', title: 'Circo na cidade',                 type: 'video', span: 'col-span-2',            code: 'DR-007', src: 'https://pub-8c3e4308a94c4528a085cf91c8140cf6.r2.dev/drone_02.mp4' },
-  { id:  8, cat: 'Eventos', title: 'Pedido de casamento',             type: 'video', span: '',                      code: 'DR-008', src: 'https://pub-8c3e4308a94c4528a085cf91c8140cf6.r2.dev/drone_03.mp4' },
+  { id:  7, cat: 'Eventos', title: 'Momento Especial',                type: 'video', span: 'col-span-2',            code: 'DR-007', src: 'https://pub-8c3e4308a94c4528a085cf91c8140cf6.r2.dev/drone_02.mp4' },
+  { id:  8, cat: 'Eventos', title: 'Captação aérea — série 1',        type: 'video', span: '',                      code: 'DR-008', src: 'https://pub-8c3e4308a94c4528a085cf91c8140cf6.r2.dev/drone_03.mp4' },
   { id:  9, cat: 'Cidades', title: 'Captação aérea — série 2',        type: 'video', span: '',                      code: 'DR-009', src: 'https://pub-8c3e4308a94c4528a085cf91c8140cf6.r2.dev/drone_04.mp4' },
   { id: 10, cat: 'Cidades', title: 'Mapeamento de área',              type: 'video', span: 'col-span-2',            code: 'DR-010', src: 'https://pub-8c3e4308a94c4528a085cf91c8140cf6.r2.dev/drone_05.mp4' },
   { id: 11, cat: 'Cidades', title: 'Registro aéreo — série 1',        type: 'video', span: 'col-span-2',            code: 'DR-011', src: 'https://pub-8c3e4308a94c4528a085cf91c8140cf6.r2.dev/drone_06.mp4' },

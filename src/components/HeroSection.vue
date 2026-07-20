@@ -1,8 +1,8 @@
 <template>
   <section id="inicio" class="relative min-h-screen flex items-center overflow-hidden">
     <div class="hero-fallback"></div>
-    <video v-if="videoSrc" class="absolute inset-0 w-full h-full object-cover"
-           autoplay muted loop playsinline :src="videoSrc"></video>
+    <img src="/Drone/wallpapper_01.JPG" alt=""
+         class="absolute inset-0 w-full h-full object-cover" />
     <div class="grain"></div>
     <div class="scanline"></div>
     <div class="absolute inset-0 bg-gradient-to-b from-ink-950/55 via-ink-950/35 to-ink-950"></div>
@@ -58,12 +58,5 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
 import { waLink, heroStats } from '../data/constants.js'
-
-const videoSrc = ref('')
-
-onMounted(() => {
-  videoSrc.value = 'https://pub-8c3e4308a94c4528a085cf91c8140cf6.r2.dev/drone_04.mp4'
-})
 </script>

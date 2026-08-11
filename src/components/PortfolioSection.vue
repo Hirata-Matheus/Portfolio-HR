@@ -77,7 +77,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, nextTick } from 'vue'
 import { categories, portfolioItems } from '../data/portfolio.js'
 
 const activeCat = ref('Todos')
@@ -93,4 +93,12 @@ function pauseOthers(current) {
     if (v !== current) { v.pause(); v.currentTime = 0 }
   })
 }
+
+onMounted(() => {
+  nextTick(() => {
+    sectionEl.value?.querySelectorAll('video').forEach(v => {
+      v.play().then(() => { v.pause(); v.currentTime = 0 }).catch(() => {})
+    })
+  })
+})
 </script>

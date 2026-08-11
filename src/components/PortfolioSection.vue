@@ -1,5 +1,5 @@
 <template>
-  <section id="portfolio" class="relative py-24 sm:py-32 bg-ink-900/60 border-y border-white/5">
+  <section ref="sectionEl" id="portfolio" class="relative py-24 sm:py-32 bg-ink-900/60 border-y border-white/5">
     <div class="max-w-container mx-auto px-5 sm:px-8">
       <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12" v-reveal>
         <div class="max-w-2xl">
@@ -49,9 +49,9 @@
               :src="item.src"
               class="absolute inset-0 w-full h-full object-cover"
               muted loop playsinline preload="metadata"
-              @mouseenter="!isMobile && $event.target.play()"
+              @mouseenter="!isMobile && (pauseOthers($event.target), $event.target.play())"
               @mouseleave="!isMobile && ($event.target.pause(), $event.target.currentTime = 0)"
-              @click="e => e.target.paused ? e.target.play() : e.target.pause()"
+              @click="e => { pauseOthers(e.target); e.target.paused ? e.target.play() : e.target.pause() }"
             ></video>
             <div v-if="!item.src" class="absolute inset-0 grid place-items-center text-white/15">
               <span class="ms text-[44px]">{{ item.type === 'video' ? 'videocam' : 'photo_camera' }}</span>
@@ -86,4 +86,11 @@ const filtered = computed(() =>
 )
 
 const isMobile = window.matchMedia('(hover: none) and (pointer: coarse)').matches
+const sectionEl = ref(null)
+
+function pauseOthers(current) {
+  sectionEl.value?.querySelectorAll('video').forEach(v => {
+    if (v !== current) { v.pause(); v.currentTime = 0 }
+  })
+}
 </script>

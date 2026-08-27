@@ -28,7 +28,7 @@
       </div>
 
       <!-- Grid -->
-      <div class="grid grid-cols-2 lg:grid-cols-4 auto-rows-[180px] sm:auto-rows-[220px] gap-4">
+      <div class="grid grid-cols-2 lg:grid-cols-4 grid-flow-row-dense auto-rows-[200px] sm:auto-rows-[320px] gap-4">
         <TransitionGroup name="folio">
           <figure
             v-for="item in filtered" :key="item.id"

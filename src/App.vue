@@ -21,6 +21,9 @@
       <LazySection placeholder="70vh">
         <ContactSection />
       </LazySection>
+      <LazySection placeholder="20vh">
+        <VerseBanner />
+      </LazySection>
     </main>
     <LazySection placeholder="20vh">
       <TheFooter />
@@ -39,6 +42,7 @@ import AboutSection    from './components/AboutSection.vue'
 import ProcessSection  from './components/ProcessSection.vue'
 import CtaBand         from './components/CtaBand.vue'
 import ContactSection  from './components/ContactSection.vue'
+import VerseBanner     from './components/VerseBanner.vue'
 import TheFooter       from './components/TheFooter.vue'
 import TweaksPanel     from './components/TweaksPanel.vue'
 import LazySection     from './components/LazySection.vue'

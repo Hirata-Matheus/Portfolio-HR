@@ -1,6 +1,9 @@
 import { createApp } from 'vue'
+import { inject } from '@vercel/analytics'
 import App from './App.vue'
 import './assets/main.css'
+
+inject()
 
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 

@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "HR Drone — Profesyonel Havadan Görüntüleme",
+    "description": "HR Drone — Emlak, etkinlikler, işletmeler ve özel anlar için profesyonel drone çekimi, fotoğraf ve video."
+  },
+  "nav": {
+    "inicio": "Ana Sayfa",
+    "servicos": "Hizmetler",
+    "portfolio": "Portfolyo",
+    "sobre": "Hakkımızda",
+    "contato": "İletişim"
+  },
+  "header": {
+    "logoAria": "HR Drone ana sayfa",
+    "navAria": "Ana gezinme",
+    "requestQuote": "Teklif iste",
+    "menuOpenAria": "Menüyü aç",
+    "language": "Dil"
+  },
+  "hero": {
+    "badge": "Profesyonel drone ile havadan çekim",
+    "titleLine1": "Bakış açınızı",
+    "titleHighlight": "yükselten",
+    "titleSuffix": "havadan görüntüler",
+    "subtitle": "Şunlar için profesyonel drone çekimi, fotoğraf ve video:",
+    "subtitleHighlight": "etkinlikler, emlak, işletmeler, turizm ve sosyal medya",
+    "ctaPrimary": "Teklif iste",
+    "ctaSecondary": "Portfolyoyu gör",
+    "scroll": "Kaydır",
+    "scrollAria": "Hizmetlere kaydır",
+    "stats": {
+      "resolution": "Sinematik çözünürlük",
+      "safety": "Güvenli uçuşlar",
+      "delivery": "Hızlı teslimat"
+    }
+  },
+  "services": {
+    "eyebrow": "/ Hizmetler",
+    "titleLine1": "Projenizin yukarıdan",
+    "titleLine2": "görünmesi gereken her şey",
+    "subtitle": "Brifingden nihai teslimata kadar sinematik bakış açısı ve profesyonel standartla eksiksiz havadan çekim çözümleri.",
+    "learnMore": "Daha fazla bilgi",
+    "items": {
+      "filmagem": { "title": "Havadan film çekimi", "desc": "İzleyiciyi cezbeden videolar için yumuşak, stabilize hareketlerle sinematik çekimler." },
+      "fotografia": { "title": "Drone fotoğrafçılığı", "desc": "Yerden imkânsız açılardan, öne çıkmaya hazır yüksek çözünürlüklü görüntüler." },
+      "imoveis": { "title": "Emlak ve arsalar", "desc": "Büyüklüğü, çevreyi ve potansiyeli gösteren havadan görüntülerle mülklerin değerini artırın." },
+      "eventos": { "title": "Etkinlikler ve gösteriler", "desc": "Etkinliğinizin enerjisini ve ölçeğini geniş, etkileyici çekimlerle kaydedin." },
+      "redes": { "title": "Sosyal medya içeriği", "desc": "Instagram, Reels ve dijital kampanyalar için tasarlanmış dikey, dinamik videolar." },
+      "institucional": { "title": "Kurumsal videolar", "desc": "Şirketinizin hikayesini profesyonel bir görsel anlatımla yukarıdan anlatın." }
+    }
+  },
+  "about": {
+    "eyebrow": "/ HR Drone Hakkında",
+    "title": "Yerleri ve anları",
+    "titleHighlight": "etkileyici görüntülere dönüştürüyoruz",
+    "description": "HR Drone, anları, yerleri ve projeleri çarpıcı havadan görüntülere dönüştürmek için kuruldu. Kalite, güvenlik ve yaratıcılığa odaklanarak işletmeler, etkinlikler, emlak ve dijital içerikler için profesyonel çekimler sunuyoruz.",
+    "ctaPrimary": "HR Drone ile konuş",
+    "ctaSecondary": "Nasıl çalışır",
+    "differentials": {
+      "qualidade": { "title": "Yüksek kaliteli çekim", "desc": "4K ekipman ve hassas teknik ayarlar." },
+      "cinema": { "title": "Sinematik bakış açısı", "desc": "Sinema dilinde kompozisyon ve hareket." },
+      "atendimento": { "title": "Kişiselleştirilmiş hizmet", "desc": "Baştan sona benzersiz şekilde ele alınan her proje." },
+      "entrega": { "title": "Hızlı teslimat", "desc": "Kaliteden ödün vermeden hızlı süreler." },
+      "seguranca": { "title": "Uçuş güvenliği", "desc": "Sorumlu planlama ve özenli operasyon." },
+      "edicao": { "title": "Profesyonel kurgu", "desc": "Sonucu yükselten renk, ritim ve son rötuşlar." }
+    }
+  },
+  "process": {
+    "eyebrow": "/ Süreç",
+    "title": "Brifingden teslimata, türbülanssız",
+    "items": {
+      "briefing": { "title": "Proje brifingi", "desc": "Hedefinizi, referanslarınızı ve neyin çekilmesi gerektiğini anlıyoruz." },
+      "planejamento": { "title": "Uçuş planlaması", "desc": "Konumları, ışık saatlerini ve en iyi çekim stratejisini belirliyoruz." },
+      "captacao": { "title": "Görüntü çekimi", "desc": "Her açıyı ideal standartta kaydetmek için güvenli şekilde uçuyoruz." },
+      "finalizacao": { "title": "Kurgu ve nihai teslimat", "desc": "İşleme, renk düzenleme ve son rötuşlar — kullanıma hazır materyali teslim ediyoruz." }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "/ Portfolyo",
+    "title": "Farklı bir açıdan görülen çalışmalar",
+    "subtitle": "Gerçek havadan fotoğraf ve videolardan bir seçki.",
+    "categories": {
+      "all": "Tümü",
+      "realestate": "Emlak",
+      "events": "Etkinlikler",
+      "cities": "Şehirler",
+      "nature": "Doğa"
+    },
+    "items": {
+      "dr001": "Açık hava düğünü",
+      "dr002": "Satılık kentsel arsa",
+      "dr003": "Geceleyin aydınlanmış şehir",
+      "dr004": "Evlilik teklifi",
+      "dr005": "Alacakaranlıkta kırsal mülk",
+      "dr006": "Gün batımında şehir manzarası",
+      "dr007": "Özel an",
+      "dr008": "Havadan çekim — seri 1",
+      "dr009": "Havadan çekim — seri 2",
+      "dr010": "Alan haritalama",
+      "dr011": "Havadan kayıt — seri 1",
+      "dr012": "Göl kenarındaki park",
+      "dr013": "Bitki örtüsü içindeki patikalar",
+      "dr014": "Kent parkının havadan görünümü",
+      "dr015": "Gece dini kutlaması",
+      "dr016": "Motosiklet buluşması",
+      "dr017": "Konut binası cephesi",
+      "dr018": "Alacakaranlıkta şehir silüeti",
+      "dr019": "Alacakaranlıkta dönme dolap",
+      "dr020": "Yeşil alan üzerinde uçuş",
+      "dr021": "Yukarıdan görülen trafik"
+    }
+  },
+  "cta": {
+    "title": "Projenizi yeni bir açıdan kaydetmeye hazır mısınız?",
+    "subtitle": "Hızlı yanıt, taahhütsüz teklif ve profesyonel standartta teslimat.",
+    "button": "WhatsApp'tan ulaşın"
+  },
+  "contact": {
+    "eyebrow": "/ İletişim",
+    "title": "Projenizi hayata geçirelim",
+    "subtitle": "Neyi çekmemiz gerektiğini bize anlatın. Hedefiniz için en iyi seçeneklerle hızlıca yanıt veriyoruz.",
+    "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "E-posta" },
+    "form": {
+      "nameLabel": "Ad",
+      "namePlaceholder": "Adınız",
+      "nameError": "Lütfen adınızı girin.",
+      "phoneLabel": "Telefon / WhatsApp",
+      "phonePlaceholder": "(00) 00000-0000",
+      "phoneError": "Lütfen geçerli bir telefon numarası girin.",
+      "serviceLabel": "Hizmet türü",
+      "serviceSelect": "Seçiniz…",
+      "serviceOther": "Diğer",
+      "serviceError": "Lütfen bir hizmet seçin.",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Projeniz, tarih ve konum hakkında bilgi verin…",
+      "submit": "Talebi gönder",
+      "hint": "Gönderdiğinizde, mesaj hazır şekilde WhatsApp'a yönlendirileceksiniz.",
+      "success": "Her şey hazır! Talebinizle WhatsApp açılıyor…",
+      "waTitle": "*Yeni teklif talebi — HR Drone*",
+      "waName": "*Ad:*",
+      "waPhone": "*Telefon:*",
+      "waService": "*Hizmet:*",
+      "waMessage": "*Mesaj:*"
+    }
+  },
+  "footer": {
+    "description": "Emlak, işletmeler, etkinlikler ve özel anlar için profesyonel havadan çekim. Kalite, güvenlik ve sinematik bakış açısı.",
+    "navTitle": "Gezinme",
+    "contactTitle": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "tagline": "Aerial Imaging · Made with precision",
+    "instaAria": "Instagram",
+    "waAria": "WhatsApp",
+    "emailAria": "E-posta"
+  },
+  "verse": {
+    "text": "“Egemen Rab gücümdür, ayaklarımı geyiğinki gibi yapar, yüksek yerlerde yürütür beni.”",
+    "ref": "Habakkuk 3:19"
+  },
+  "waMessages": {
+    "hero": "Merhaba! HR Drone'dan teklif almak istiyorum.",
+    "about": "Merhaba! HR Drone ile bir proje hakkında konuşmak istiyorum.",
+    "ctaBand": "Merhaba! Sitenizi buldum ve projemi HR Drone ile kaydettirmek istiyorum.",
+    "generic": "Merhaba HR Drone!",
+    "contactFallback": "Merhaba! HR Drone sitesini buldum."
+  }
+}

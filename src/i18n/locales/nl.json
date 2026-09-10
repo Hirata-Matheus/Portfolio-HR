@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "HR Drone — Professionele luchtbeelden",
+    "description": "HR Drone — Professionele drone-opnames, foto's en video's voor vastgoed, evenementen, bedrijven en bijzondere momenten."
+  },
+  "nav": {
+    "inicio": "Home",
+    "servicos": "Diensten",
+    "portfolio": "Portfolio",
+    "sobre": "Over ons",
+    "contato": "Contact"
+  },
+  "header": {
+    "logoAria": "HR Drone home",
+    "navAria": "Hoofdnavigatie",
+    "requestQuote": "Offerte aanvragen",
+    "menuOpenAria": "Menu openen",
+    "language": "Taal"
+  },
+  "hero": {
+    "badge": "Professionele luchtopnames met drone",
+    "titleLine1": "Luchtbeelden die",
+    "titleHighlight": "jouw perspectief",
+    "titleSuffix": "verheffen",
+    "subtitle": "Professionele drone-opnames, foto's en video's voor",
+    "subtitleHighlight": "evenementen, vastgoed, bedrijven, toerisme en social media",
+    "ctaPrimary": "Offerte aanvragen",
+    "ctaSecondary": "Bekijk portfolio",
+    "scroll": "Scroll",
+    "scrollAria": "Naar diensten scrollen",
+    "stats": {
+      "resolution": "Cinematografische resolutie",
+      "safety": "Veilige vluchten",
+      "delivery": "Snelle levering"
+    }
+  },
+  "services": {
+    "eyebrow": "/ Diensten",
+    "titleLine1": "Alles wat jouw project",
+    "titleLine2": "van bovenaf moet laten zien",
+    "subtitle": "Complete oplossingen voor luchtopnames, van briefing tot eindoplevering — met een cinematografische blik en professionele standaard.",
+    "learnMore": "Meer weten",
+    "items": {
+      "filmagem": { "title": "Luchtopnames", "desc": "Cinematografische shots met vloeiende, gestabiliseerde bewegingen voor video's die de aandacht vasthouden." },
+      "fotografia": { "title": "Dronefotografie", "desc": "Beelden in hoge resolutie vanuit hoeken die vanaf de grond onmogelijk zijn, klaar om op te vallen." },
+      "imoveis": { "title": "Vastgoed en percelen", "desc": "Geef panden meerwaarde met luchtfoto's die omvang, omgeving en potentieel tonen." },
+      "eventos": { "title": "Evenementen en shows", "desc": "Leg de energie en schaal van jouw evenement vast met weidse, indrukwekkende shots." },
+      "redes": { "title": "Content voor social media", "desc": "Verticale, dynamische video's gemaakt voor Instagram, Reels en digitale campagnes." },
+      "institucional": { "title": "Bedrijfsvideo's", "desc": "Vertel het verhaal van jouw bedrijf van bovenaf, met een professioneel visueel verhaal." }
+    }
+  },
+  "about": {
+    "eyebrow": "/ Over HR Drone",
+    "title": "Wij veranderen plekken en momenten in",
+    "titleHighlight": "beelden met impact",
+    "description": "HR Drone werd opgericht om momenten, plekken en projecten om te zetten in indrukwekkende luchtbeelden. Met focus op kwaliteit, veiligheid en creativiteit leveren wij professionele opnames voor bedrijven, evenementen, vastgoed en digitale content.",
+    "ctaPrimary": "Praat met HR Drone",
+    "ctaSecondary": "Hoe het werkt",
+    "differentials": {
+      "qualidade": { "title": "Hoogwaardige opnames", "desc": "4K-apparatuur en nauwkeurige technische instellingen." },
+      "cinema": { "title": "Cinematografische blik", "desc": "Compositie en beweging met filmtaal." },
+      "atendimento": { "title": "Persoonlijke begeleiding", "desc": "Elk project uniek behandeld, van begin tot eind." },
+      "entrega": { "title": "Snelle levering", "desc": "Korte doorlooptijden zonder concessies aan de afwerking." },
+      "seguranca": { "title": "Vliegveiligheid", "desc": "Verantwoorde planning en zorgvuldige uitvoering." },
+      "edicao": { "title": "Professionele montage", "desc": "Kleur, ritme en afwerking die het resultaat verheffen." }
+    }
+  },
+  "process": {
+    "eyebrow": "/ Proces",
+    "title": "Van briefing tot levering, zonder turbulentie",
+    "items": {
+      "briefing": { "title": "Projectbriefing", "desc": "Wij begrijpen jouw doel, referenties en wat er vastgelegd moet worden." },
+      "planejamento": { "title": "Vluchtplanning", "desc": "Wij bepalen locaties, lichttijden en de beste opnamestrategie." },
+      "captacao": { "title": "Beeldopname", "desc": "Wij vliegen veilig om elke hoek volgens de ideale standaard vast te leggen." },
+      "finalizacao": { "title": "Montage en eindoplevering", "desc": "Bewerking, kleur en afwerking — het materiaal klaar voor gebruik opgeleverd." }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "/ Portfolio",
+    "title": "Werk gezien vanuit een andere hoek",
+    "subtitle": "Een selectie van echte luchtfoto's en video's.",
+    "categories": {
+      "all": "Alles",
+      "realestate": "Vastgoed",
+      "events": "Evenementen",
+      "cities": "Steden",
+      "nature": "Natuur"
+    },
+    "items": {
+      "dr001": "Bruiloft in de open lucht",
+      "dr002": "Stedelijk perceel te koop",
+      "dr003": "Stad verlicht bij nacht",
+      "dr004": "Huwelijksaanzoek",
+      "dr005": "Landelijk landgoed bij schemering",
+      "dr006": "Stadsgezicht bij zonsondergang",
+      "dr007": "Bijzonder moment",
+      "dr008": "Luchtopname — serie 1",
+      "dr009": "Luchtopname — serie 2",
+      "dr010": "Gebiedskartering",
+      "dr011": "Luchtregistratie — serie 1",
+      "dr012": "Park aan het meer",
+      "dr013": "Paden door de vegetatie",
+      "dr014": "Luchtfoto van stadspark",
+      "dr015": "Religieuze viering bij nacht",
+      "dr016": "Motorrijdersbijeenkomst",
+      "dr017": "Gevel van woongebouw",
+      "dr018": "Stedelijke skyline bij schemering",
+      "dr019": "Reuzenrad bij schemering",
+      "dr020": "Overvlucht van groen gebied",
+      "dr021": "Verkeer gezien van bovenaf"
+    }
+  },
+  "cta": {
+    "title": "Klaar om jouw project vanuit een nieuwe hoek vast te leggen?",
+    "subtitle": "Snelle reactie, vrijblijvende offerte en levering volgens professionele standaard.",
+    "button": "Stuur een bericht via WhatsApp"
+  },
+  "contact": {
+    "eyebrow": "/ Contact",
+    "title": "Laten we jouw project van de grond krijgen",
+    "subtitle": "Vertel ons wat je wilt vastleggen. Wij reageren snel met de beste opties voor jouw doel.",
+    "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "E-mail" },
+    "form": {
+      "nameLabel": "Naam",
+      "namePlaceholder": "Jouw naam",
+      "nameError": "Vul je naam in.",
+      "phoneLabel": "Telefoon / WhatsApp",
+      "phonePlaceholder": "(00) 00000-0000",
+      "phoneError": "Vul een geldig telefoonnummer in.",
+      "serviceLabel": "Type dienst",
+      "serviceSelect": "Selecteer…",
+      "serviceOther": "Anders",
+      "serviceError": "Selecteer een dienst.",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Vertel over jouw project, datum en locatie…",
+      "submit": "Offerte aanvragen",
+      "hint": "Bij verzending word je doorgestuurd naar WhatsApp met het bericht klaar.",
+      "success": "Helemaal klaar! WhatsApp wordt geopend met jouw aanvraag…",
+      "waTitle": "*Nieuwe offerteaanvraag — HR Drone*",
+      "waName": "*Naam:*",
+      "waPhone": "*Telefoon:*",
+      "waService": "*Dienst:*",
+      "waMessage": "*Bericht:*"
+    }
+  },
+  "footer": {
+    "description": "Professionele luchtopnames voor vastgoed, bedrijven, evenementen en bijzondere momenten. Kwaliteit, veiligheid en een cinematografische blik.",
+    "navTitle": "Navigatie",
+    "contactTitle": "Contact",
+    "rights": "Alle rechten voorbehouden.",
+    "tagline": "Aerial Imaging · Made with precision",
+    "instaAria": "Instagram",
+    "waAria": "WhatsApp",
+    "emailAria": "E-mail"
+  },
+  "verse": {
+    "text": "„De Heer, mijn God, is mijn kracht; hij maakt mijn voeten als die van hinden en doet mij treden op mijn hoogten.”",
+    "ref": "Habakuk 3:19"
+  },
+  "waMessages": {
+    "hero": "Hallo! Ik wil graag een offerte aanvragen bij HR Drone.",
+    "about": "Hallo! Ik wil graag praten over een project met HR Drone.",
+    "ctaBand": "Hallo! Ik kwam via de website en wil mijn project laten vastleggen door HR Drone.",
+    "generic": "Hallo HR Drone!",
+    "contactFallback": "Hallo! Ik kwam via de website van HR Drone."
+  }
+}

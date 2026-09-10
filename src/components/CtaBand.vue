@@ -8,17 +8,17 @@
         <div class="relative">
           <h2 v-reveal
               class="font-display font-bold text-white text-[clamp(1.8rem,4.5vw,3.2rem)] leading-[1.05] tracking-tight max-w-3xl mx-auto">
-            Pronto para registrar seu projeto de um novo ângulo?
+            {{ t('cta.title') }}
           </h2>
           <p v-reveal="120"
              class="mt-5 text-[17px] text-white/85 max-w-xl mx-auto">
-            Resposta rápida, orçamento sem compromisso e entrega no padrão profissional.
+            {{ t('cta.subtitle') }}
           </p>
           <a v-reveal="240"
-             :href="waLink('Olá! Vim pelo site e quero registrar meu projeto com a HR Drone.')"
+             :href="ctaWaLink"
              target="_blank" rel="noopener"
              class="btn mt-9 px-8 py-4 text-[16px] bg-ink-950 text-white hover:bg-ink-900 hover:-translate-y-0.5 shadow-2xl">
-            <span class="ms fill text-[22px] text-mint">chat</span> Chamar no WhatsApp
+            <span class="ms fill text-[22px] text-mint">chat</span> {{ t('cta.button') }}
           </a>
         </div>
       </div>
@@ -27,5 +27,10 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { waLink } from '../data/constants.js'
+
+const { t } = useI18n()
+const ctaWaLink = computed(() => waLink(t('waMessages.ctaBand')))
 </script>

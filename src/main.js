@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import { inject } from '@vercel/analytics'
 import App from './App.vue'
+import { i18n } from './i18n'
 import './assets/main.css'
 
 inject()
@@ -8,6 +9,7 @@ inject()
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
 const app = createApp(App)
+app.use(i18n)
 
 app.directive('reveal', {
   mounted(el, binding) {

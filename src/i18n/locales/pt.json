@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "HR Drone — Imagens aéreas profissionais",
+    "description": "HR Drone — Filmagens, fotos e vídeos profissionais com drone para imóveis, eventos, empresas e momentos especiais."
+  },
+  "nav": {
+    "inicio": "Início",
+    "servicos": "Serviços",
+    "portfolio": "Portfólio",
+    "sobre": "Sobre",
+    "contato": "Contato"
+  },
+  "header": {
+    "logoAria": "HR Drone início",
+    "navAria": "Navegação principal",
+    "requestQuote": "Solicitar orçamento",
+    "menuOpenAria": "Abrir menu",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "Captação aérea profissional com drone",
+    "titleLine1": "Imagens aéreas que",
+    "titleHighlight": "elevam",
+    "titleSuffix": "sua perspectiva",
+    "subtitle": "Filmagens, fotos e vídeos profissionais com drone para",
+    "subtitleHighlight": "eventos, imóveis, empresas, turismo e redes sociais",
+    "ctaPrimary": "Solicitar orçamento",
+    "ctaSecondary": "Ver portfólio",
+    "scroll": "Scroll",
+    "scrollAria": "Rolar para serviços",
+    "stats": {
+      "resolution": "Resolução cinematográfica",
+      "safety": "Voos com segurança",
+      "delivery": "Entrega ágil"
+    }
+  },
+  "services": {
+    "eyebrow": "/ Serviços",
+    "titleLine1": "Tudo o que o seu projeto",
+    "titleLine2": "precisa ver de cima",
+    "subtitle": "Soluções completas de captação aérea, do briefing à entrega final — com olhar cinematográfico e padrão profissional.",
+    "learnMore": "Saiba mais",
+    "items": {
+      "filmagem": { "title": "Filmagem aérea", "desc": "Tomadas cinematográficas com movimentos suaves e estabilizados para vídeos que prendem o olhar." },
+      "fotografia": { "title": "Fotografia com drone", "desc": "Imagens em alta resolução de ângulos impossíveis no solo, prontas para destaque." },
+      "imoveis": { "title": "Imóveis e terrenos", "desc": "Valorize propriedades com vistas aéreas que mostram dimensão, entorno e potencial." },
+      "eventos": { "title": "Eventos e shows", "desc": "Registre a energia e a escala do seu evento com planos abertos e impactantes." },
+      "redes": { "title": "Conteúdo para redes", "desc": "Vídeos verticais e dinâmicos pensados para Instagram, Reels e campanhas digitais." },
+      "institucional": { "title": "Vídeos institucionais", "desc": "Conte a história da sua empresa de cima, com uma narrativa visual profissional." }
+    }
+  },
+  "about": {
+    "eyebrow": "/ Sobre a HR Drone",
+    "title": "Transformamos lugares e momentos em",
+    "titleHighlight": "imagens que impactam",
+    "description": "A HR Drone nasceu para transformar momentos, lugares e projetos em imagens aéreas impactantes. Com foco em qualidade, segurança e criatividade, entregamos registros profissionais para empresas, eventos, imóveis e conteúdos digitais.",
+    "ctaPrimary": "Falar com a HR Drone",
+    "ctaSecondary": "Como funciona",
+    "differentials": {
+      "qualidade": { "title": "Captação em alta qualidade", "desc": "Equipamentos 4K e ajustes técnicos precisos." },
+      "cinema": { "title": "Olhar cinematográfico", "desc": "Composição e movimento com linguagem de cinema." },
+      "atendimento": { "title": "Atendimento personalizado", "desc": "Cada projeto tratado de forma única, do início ao fim." },
+      "entrega": { "title": "Entrega rápida", "desc": "Prazos ágeis sem abrir mão do acabamento." },
+      "seguranca": { "title": "Segurança nos voos", "desc": "Planejamento responsável e operação cuidadosa." },
+      "edicao": { "title": "Edição profissional", "desc": "Cor, ritmo e finalização que elevam o resultado." }
+    }
+  },
+  "process": {
+    "eyebrow": "/ Processo",
+    "title": "Do briefing à entrega, sem turbulência",
+    "items": {
+      "briefing": { "title": "Briefing do projeto", "desc": "Entendemos seu objetivo, referências e o que precisa ser capturado." },
+      "planejamento": { "title": "Planejamento do voo", "desc": "Definimos locais, horários de luz e a melhor estratégia de captação." },
+      "captacao": { "title": "Captação das imagens", "desc": "Voamos com segurança para registrar cada ângulo no padrão ideal." },
+      "finalizacao": { "title": "Edição e entrega final", "desc": "Tratamento, cor e finalização — entregando o material pronto para uso." }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "/ Portfólio",
+    "title": "Trabalhos vistos de outro ângulo",
+    "subtitle": "Uma seleção de capturas aéreas com imagens e vídeos reais.",
+    "categories": {
+      "all": "Todos",
+      "realestate": "Imóveis",
+      "events": "Eventos",
+      "cities": "Cidades",
+      "nature": "Natureza"
+    },
+    "items": {
+      "dr001": "Casamento ao ar livre",
+      "dr002": "Terreno urbano para venda",
+      "dr003": "Cidade iluminada à noite",
+      "dr004": "Pedido de casamento",
+      "dr005": "Propriedade rural ao entardecer",
+      "dr006": "Vista da cidade ao pôr do sol",
+      "dr007": "Momento Especial",
+      "dr008": "Captação aérea — série 1",
+      "dr009": "Captação aérea — série 2",
+      "dr010": "Mapeamento de área",
+      "dr011": "Registro aéreo — série 1",
+      "dr012": "Parque às margens do lago",
+      "dr013": "Trilhas em meio à vegetação",
+      "dr014": "Vista aérea de parque urbano",
+      "dr015": "Celebração religiosa à noite",
+      "dr016": "Encontro de motociclistas",
+      "dr017": "Fachada de edifício residencial",
+      "dr018": "Horizonte urbano ao entardecer",
+      "dr019": "Roda-gigante ao entardecer",
+      "dr020": "Sobrevoo por área verde",
+      "dr021": "Trânsito visto do alto"
+    }
+  },
+  "cta": {
+    "title": "Pronto para registrar seu projeto de um novo ângulo?",
+    "subtitle": "Resposta rápida, orçamento sem compromisso e entrega no padrão profissional.",
+    "button": "Chamar no WhatsApp"
+  },
+  "contact": {
+    "eyebrow": "/ Contato",
+    "title": "Vamos tirar seu projeto do chão",
+    "subtitle": "Conte o que você precisa capturar. Respondemos rápido com as melhores opções para o seu objetivo.",
+    "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "E-mail" },
+    "form": {
+      "nameLabel": "Nome",
+      "namePlaceholder": "Seu nome",
+      "nameError": "Informe seu nome.",
+      "phoneLabel": "Telefone / WhatsApp",
+      "phonePlaceholder": "(00) 00000-0000",
+      "phoneError": "Informe um telefone válido.",
+      "serviceLabel": "Tipo de serviço",
+      "serviceSelect": "Selecione…",
+      "serviceOther": "Outro",
+      "serviceError": "Selecione um serviço.",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Conte sobre seu projeto, data e local…",
+      "submit": "Enviar orçamento",
+      "hint": "Ao enviar, você será direcionado ao WhatsApp com a mensagem pronta.",
+      "success": "Tudo certo! Abrindo o WhatsApp com seu pedido…",
+      "waTitle": "*Novo orçamento — HR Drone*",
+      "waName": "*Nome:*",
+      "waPhone": "*Telefone:*",
+      "waService": "*Serviço:*",
+      "waMessage": "*Mensagem:*"
+    }
+  },
+  "footer": {
+    "description": "Captação aérea profissional para imóveis, empresas, eventos e momentos especiais. Qualidade, segurança e olhar cinematográfico.",
+    "navTitle": "Navegação",
+    "contactTitle": "Contato",
+    "rights": "Todos os direitos reservados.",
+    "tagline": "Aerial Imaging · Made with precision",
+    "instaAria": "Instagram",
+    "waAria": "WhatsApp",
+    "emailAria": "E-mail"
+  },
+  "verse": {
+    "text": "“O Senhor, o Soberano, é a minha força; ele faz os meus pés como os do cervo e faz-me andar em lugares altos.”",
+    "ref": "Habacuque 3:19"
+  },
+  "waMessages": {
+    "hero": "Olá! Gostaria de solicitar um orçamento com a HR Drone.",
+    "about": "Olá! Quero conversar sobre um projeto com a HR Drone.",
+    "ctaBand": "Olá! Vim pelo site e quero registrar meu projeto com a HR Drone.",
+    "generic": "Olá HR Drone!",
+    "contactFallback": "Olá! Vim pelo site da HR Drone."
+  }
+}

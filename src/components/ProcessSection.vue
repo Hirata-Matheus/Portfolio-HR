@@ -2,16 +2,16 @@
   <section id="processo" class="relative py-24 sm:py-32 bg-ink-900/60 border-y border-white/5">
     <div class="max-w-container mx-auto px-5 sm:px-8">
       <div class="max-w-2xl mb-16" v-reveal>
-        <span class="font-mono text-[12px] tracking-[0.3em] uppercase text-mint">/ Processo</span>
+        <span class="font-mono text-[12px] tracking-[0.3em] uppercase text-mint">{{ t('process.eyebrow') }}</span>
         <h2 class="mt-4 font-display font-bold text-white text-[clamp(2rem,4vw,3rem)] leading-[1.05] tracking-tight">
-          Do briefing à entrega, sem turbulência
+          {{ t('process.title') }}
         </h2>
       </div>
 
       <div class="relative grid md:grid-cols-4 gap-6 md:gap-4">
         <div class="hidden md:block absolute top-9 left-[12%] right-[12%] h-px step-line"></div>
         <div
-          v-for="(p, i) in process" :key="p.title"
+          v-for="(p, i) in process" :key="p.id"
           v-reveal="i * 90"
           class="relative"
         >
@@ -21,8 +21,8 @@
               {{ i + 1 }}
             </span>
           </div>
-          <h3 class="font-display font-semibold text-[19px] text-white text-center md:text-left">{{ p.title }}</h3>
-          <p class="mt-2.5 text-[14.5px] text-slate-300/70 leading-relaxed text-center md:text-left">{{ p.desc }}</p>
+          <h3 class="font-display font-semibold text-[19px] text-white text-center md:text-left">{{ t(`process.items.${p.id}.title`) }}</h3>
+          <p class="mt-2.5 text-[14.5px] text-slate-300/70 leading-relaxed text-center md:text-left">{{ t(`process.items.${p.id}.desc`) }}</p>
         </div>
       </div>
     </div>
@@ -30,5 +30,8 @@
 </template>
 
 <script setup>
+import { useI18n } from 'vue-i18n'
 import { process } from '../data/constants.js'
+
+const { t } = useI18n()
 </script>

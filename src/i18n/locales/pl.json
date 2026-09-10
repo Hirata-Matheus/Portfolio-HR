@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "HR Drone — Profesjonalne zdjęcia lotnicze",
+    "description": "HR Drone — Profesjonalne filmy, zdjęcia i wideo z drona dla nieruchomości, wydarzeń, firm i wyjątkowych chwil."
+  },
+  "nav": {
+    "inicio": "Start",
+    "servicos": "Usługi",
+    "portfolio": "Portfolio",
+    "sobre": "O nas",
+    "contato": "Kontakt"
+  },
+  "header": {
+    "logoAria": "HR Drone strona główna",
+    "navAria": "Nawigacja główna",
+    "requestQuote": "Poproś o wycenę",
+    "menuOpenAria": "Otwórz menu",
+    "language": "Język"
+  },
+  "hero": {
+    "badge": "Profesjonalne nagrania lotnicze dronem",
+    "titleLine1": "Zdjęcia lotnicze, które",
+    "titleHighlight": "podnoszą",
+    "titleSuffix": "Twoją perspektywę",
+    "subtitle": "Profesjonalne filmy, zdjęcia i wideo z drona dla",
+    "subtitleHighlight": "wydarzeń, nieruchomości, firm, turystyki i mediów społecznościowych",
+    "ctaPrimary": "Poproś o wycenę",
+    "ctaSecondary": "Zobacz portfolio",
+    "scroll": "Przewiń",
+    "scrollAria": "Przewiń do usług",
+    "stats": {
+      "resolution": "Rozdzielczość kinowa",
+      "safety": "Bezpieczne loty",
+      "delivery": "Szybka realizacja"
+    }
+  },
+  "services": {
+    "eyebrow": "/ Usługi",
+    "titleLine1": "Wszystko, co Twój projekt",
+    "titleLine2": "musi pokazać z góry",
+    "subtitle": "Kompleksowe rozwiązania w zakresie nagrań lotniczych, od briefu po finalną dostawę — z filmowym okiem i profesjonalnym standardem.",
+    "learnMore": "Dowiedz się więcej",
+    "items": {
+      "filmagem": { "title": "Filmowanie z lotu ptaka", "desc": "Kinowe ujęcia z płynnym, stabilizowanym ruchem dla filmów, które przykuwają uwagę." },
+      "fotografia": { "title": "Fotografia dronem", "desc": "Zdjęcia w wysokiej rozdzielczości z kątów niemożliwych do uzyskania z ziemi, gotowe by się wyróżnić." },
+      "imoveis": { "title": "Nieruchomości i działki", "desc": "Podnieś wartość nieruchomości dzięki widokom z lotu ptaka pokazującym skalę, otoczenie i potencjał." },
+      "eventos": { "title": "Wydarzenia i pokazy", "desc": "Uchwyć energię i skalę swojego wydarzenia za pomocą szerokich, efektownych ujęć." },
+      "redes": { "title": "Treści do mediów społecznościowych", "desc": "Pionowe, dynamiczne wideo stworzone z myślą o Instagramie, Reels i kampaniach cyfrowych." },
+      "institucional": { "title": "Filmy firmowe", "desc": "Opowiedz historię swojej firmy z góry, poprzez profesjonalną narrację wizualną." }
+    }
+  },
+  "about": {
+    "eyebrow": "/ O HR Drone",
+    "title": "Zamieniamy miejsca i chwile w",
+    "titleHighlight": "obrazy, które robią wrażenie",
+    "description": "HR Drone powstało, by zamieniać chwile, miejsca i projekty w wyjątkowe zdjęcia lotnicze. Skupiając się na jakości, bezpieczeństwie i kreatywności, dostarczamy profesjonalne materiały dla firm, wydarzeń, nieruchomości i treści cyfrowych.",
+    "ctaPrimary": "Porozmawiaj z HR Drone",
+    "ctaSecondary": "Jak to działa",
+    "differentials": {
+      "qualidade": { "title": "Nagrania w wysokiej jakości", "desc": "Sprzęt 4K i precyzyjne ustawienia techniczne." },
+      "cinema": { "title": "Filmowe spojrzenie", "desc": "Kompozycja i ruch w języku kina." },
+      "atendimento": { "title": "Indywidualna obsługa", "desc": "Każdy projekt traktowany wyjątkowo, od początku do końca." },
+      "entrega": { "title": "Szybka realizacja", "desc": "Krótkie terminy bez utraty jakości wykończenia." },
+      "seguranca": { "title": "Bezpieczeństwo lotów", "desc": "Odpowiedzialne planowanie i staranna obsługa." },
+      "edicao": { "title": "Profesjonalny montaż", "desc": "Kolor, rytm i wykończenie, które podnoszą efekt końcowy." }
+    }
+  },
+  "process": {
+    "eyebrow": "/ Proces",
+    "title": "Od briefu po dostawę, bez turbulencji",
+    "items": {
+      "briefing": { "title": "Brief projektu", "desc": "Poznajemy Twój cel, materiały referencyjne i to, co musi zostać uchwycone." },
+      "planejamento": { "title": "Planowanie lotu", "desc": "Ustalamy lokalizacje, godziny odpowiedniego światła i najlepszą strategię nagrywania." },
+      "captacao": { "title": "Rejestracja obrazu", "desc": "Latamy bezpiecznie, aby uchwycić każdy kąt w idealnym standardzie." },
+      "finalizacao": { "title": "Montaż i finalna dostawa", "desc": "Obróbka, kolor i wykończenie — dostarczamy materiał gotowy do użycia." }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "/ Portfolio",
+    "title": "Realizacje widziane z innej perspektywy",
+    "subtitle": "Wybór prawdziwych zdjęć i filmów z lotu ptaka.",
+    "categories": {
+      "all": "Wszystkie",
+      "realestate": "Nieruchomości",
+      "events": "Wydarzenia",
+      "cities": "Miasta",
+      "nature": "Natura"
+    },
+    "items": {
+      "dr001": "Ślub na świeżym powietrzu",
+      "dr002": "Działka miejska na sprzedaż",
+      "dr003": "Miasto oświetlone nocą",
+      "dr004": "Oświadczyny",
+      "dr005": "Posiadłość wiejska o zmierzchu",
+      "dr006": "Widok miasta o zachodzie słońca",
+      "dr007": "Wyjątkowa chwila",
+      "dr008": "Nagranie lotnicze — seria 1",
+      "dr009": "Nagranie lotnicze — seria 2",
+      "dr010": "Mapowanie terenu",
+      "dr011": "Rejestracja lotnicza — seria 1",
+      "dr012": "Park nad jeziorem",
+      "dr013": "Szlaki wśród zieleni",
+      "dr014": "Widok z lotu ptaka na park miejski",
+      "dr015": "Nocna uroczystość religijna",
+      "dr016": "Zlot motocyklistów",
+      "dr017": "Elewacja budynku mieszkalnego",
+      "dr018": "Panorama miasta o zmierzchu",
+      "dr019": "Diabelski młyn o zmierzchu",
+      "dr020": "Przelot nad terenem zielonym",
+      "dr021": "Ruch uliczny widziany z góry"
+    }
+  },
+  "cta": {
+    "title": "Gotowy, by uchwycić swój projekt z nowej perspektywy?",
+    "subtitle": "Szybka odpowiedź, wycena bez zobowiązań i dostawa w profesjonalnym standardzie.",
+    "button": "Napisz na WhatsApp"
+  },
+  "contact": {
+    "eyebrow": "/ Kontakt",
+    "title": "Zacznijmy realizację Twojego projektu",
+    "subtitle": "Powiedz nam, co chcesz uchwycić. Odpowiadamy szybko z najlepszymi opcjami dla Twojego celu.",
+    "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "E-mail" },
+    "form": {
+      "nameLabel": "Imię",
+      "namePlaceholder": "Twoje imię",
+      "nameError": "Podaj swoje imię.",
+      "phoneLabel": "Telefon / WhatsApp",
+      "phonePlaceholder": "(00) 00000-0000",
+      "phoneError": "Podaj prawidłowy numer telefonu.",
+      "serviceLabel": "Rodzaj usługi",
+      "serviceSelect": "Wybierz…",
+      "serviceOther": "Inne",
+      "serviceError": "Wybierz usługę.",
+      "messageLabel": "Wiadomość",
+      "messagePlaceholder": "Opowiedz o swoim projekcie, dacie i miejscu…",
+      "submit": "Wyślij zapytanie",
+      "hint": "Po wysłaniu zostaniesz przekierowany do WhatsApp z gotową wiadomością.",
+      "success": "Gotowe! Otwieramy WhatsApp z Twoim zapytaniem…",
+      "waTitle": "*Nowe zapytanie o wycenę — HR Drone*",
+      "waName": "*Imię:*",
+      "waPhone": "*Telefon:*",
+      "waService": "*Usługa:*",
+      "waMessage": "*Wiadomość:*"
+    }
+  },
+  "footer": {
+    "description": "Profesjonalne nagrania lotnicze dla nieruchomości, firm, wydarzeń i wyjątkowych chwil. Jakość, bezpieczeństwo i filmowe spojrzenie.",
+    "navTitle": "Nawigacja",
+    "contactTitle": "Kontakt",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "tagline": "Aerial Imaging · Made with precision",
+    "instaAria": "Instagram",
+    "waAria": "WhatsApp",
+    "emailAria": "E-mail"
+  },
+  "verse": {
+    "text": "„Pan, mój Bóg, jest moją siłą; sprawia, że nogi moje są jak nogi łani, i po wyżynach każe mi kroczyć”.",
+    "ref": "Habakuka 3,19"
+  },
+  "waMessages": {
+    "hero": "Cześć! Chciałbym poprosić o wycenę w HR Drone.",
+    "about": "Cześć! Chciałbym porozmawiać o projekcie z HR Drone.",
+    "ctaBand": "Cześć! Znalazłem Waszą stronę i chcę zrealizować mój projekt z HR Drone.",
+    "generic": "Cześć HR Drone!",
+    "contactFallback": "Cześć! Znalazłem stronę HR Drone."
+  }
+}

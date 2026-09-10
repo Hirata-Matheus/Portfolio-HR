@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "HR Drone — Professional Aerial Imagery",
+    "description": "HR Drone — Professional drone filming, photography and video for real estate, events, businesses and special moments."
+  },
+  "nav": {
+    "inicio": "Home",
+    "servicos": "Services",
+    "portfolio": "Portfolio",
+    "sobre": "About",
+    "contato": "Contact"
+  },
+  "header": {
+    "logoAria": "HR Drone home",
+    "navAria": "Main navigation",
+    "requestQuote": "Get a quote",
+    "menuOpenAria": "Open menu",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Professional aerial drone footage",
+    "titleLine1": "Aerial imagery that",
+    "titleHighlight": "elevates",
+    "titleSuffix": "your perspective",
+    "subtitle": "Professional drone filming, photos and videos for",
+    "subtitleHighlight": "events, real estate, businesses, tourism and social media",
+    "ctaPrimary": "Get a quote",
+    "ctaSecondary": "View portfolio",
+    "scroll": "Scroll",
+    "scrollAria": "Scroll to services",
+    "stats": {
+      "resolution": "Cinematic resolution",
+      "safety": "Safe flights",
+      "delivery": "Fast delivery"
+    }
+  },
+  "services": {
+    "eyebrow": "/ Services",
+    "titleLine1": "Everything your project",
+    "titleLine2": "needs to see from above",
+    "subtitle": "Complete aerial capture solutions, from briefing to final delivery — with a cinematic eye and professional standard.",
+    "learnMore": "Learn more",
+    "items": {
+      "filmagem": { "title": "Aerial filming", "desc": "Cinematic shots with smooth, stabilized movement for videos that captivate." },
+      "fotografia": { "title": "Drone photography", "desc": "High-resolution images from angles impossible from the ground, ready to stand out." },
+      "imoveis": { "title": "Real estate & land", "desc": "Showcase properties with aerial views that reveal scale, surroundings and potential." },
+      "eventos": { "title": "Events & shows", "desc": "Capture the energy and scale of your event with sweeping, impactful shots." },
+      "redes": { "title": "Content for social media", "desc": "Vertical, dynamic videos made for Instagram, Reels and digital campaigns." },
+      "institucional": { "title": "Corporate videos", "desc": "Tell your company's story from above with professional visual storytelling." }
+    }
+  },
+  "about": {
+    "eyebrow": "/ About HR Drone",
+    "title": "We turn places and moments into",
+    "titleHighlight": "images that make an impact",
+    "description": "HR Drone was created to turn moments, places and projects into striking aerial imagery. Focused on quality, safety and creativity, we deliver professional footage for businesses, events, real estate and digital content.",
+    "ctaPrimary": "Talk to HR Drone",
+    "ctaSecondary": "How it works",
+    "differentials": {
+      "qualidade": { "title": "High-quality capture", "desc": "4K equipment and precise technical settings." },
+      "cinema": { "title": "Cinematic eye", "desc": "Composition and movement with a filmmaker's language." },
+      "atendimento": { "title": "Personalized service", "desc": "Every project handled uniquely, from start to finish." },
+      "entrega": { "title": "Fast turnaround", "desc": "Quick delivery without compromising on quality." },
+      "seguranca": { "title": "Flight safety", "desc": "Responsible planning and careful operation." },
+      "edicao": { "title": "Professional editing", "desc": "Color, pacing and finishing that elevate the result." }
+    }
+  },
+  "process": {
+    "eyebrow": "/ Process",
+    "title": "From briefing to delivery, turbulence-free",
+    "items": {
+      "briefing": { "title": "Project briefing", "desc": "We understand your goal, references and what needs to be captured." },
+      "planejamento": { "title": "Flight planning", "desc": "We define locations, light timing and the best capture strategy." },
+      "captacao": { "title": "Image capture", "desc": "We fly safely to record every angle to the ideal standard." },
+      "finalizacao": { "title": "Editing & final delivery", "desc": "Grading, color and finishing — delivering material ready to use." }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "/ Portfolio",
+    "title": "Work seen from a different angle",
+    "subtitle": "A selection of real aerial photos and videos.",
+    "categories": {
+      "all": "All",
+      "realestate": "Real Estate",
+      "events": "Events",
+      "cities": "Cities",
+      "nature": "Nature"
+    },
+    "items": {
+      "dr001": "Outdoor wedding",
+      "dr002": "Urban lot for sale",
+      "dr003": "City lit up at night",
+      "dr004": "Wedding proposal",
+      "dr005": "Rural property at dusk",
+      "dr006": "City view at sunset",
+      "dr007": "Special moment",
+      "dr008": "Aerial footage — series 1",
+      "dr009": "Aerial footage — series 2",
+      "dr010": "Area mapping",
+      "dr011": "Aerial record — series 1",
+      "dr012": "Lakeside park",
+      "dr013": "Trails through the vegetation",
+      "dr014": "Aerial view of urban park",
+      "dr015": "Night religious celebration",
+      "dr016": "Motorcycle gathering",
+      "dr017": "Residential building façade",
+      "dr018": "Urban skyline at dusk",
+      "dr019": "Ferris wheel at dusk",
+      "dr020": "Flyover of green area",
+      "dr021": "Traffic seen from above"
+    }
+  },
+  "cta": {
+    "title": "Ready to capture your project from a new angle?",
+    "subtitle": "Fast response, no-obligation quote and professional-standard delivery.",
+    "button": "Message us on WhatsApp"
+  },
+  "contact": {
+    "eyebrow": "/ Contact",
+    "title": "Let's get your project off the ground",
+    "subtitle": "Tell us what you need captured. We reply quickly with the best options for your goal.",
+    "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "Email" },
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "nameError": "Please enter your name.",
+      "phoneLabel": "Phone / WhatsApp",
+      "phonePlaceholder": "(00) 00000-0000",
+      "phoneError": "Please enter a valid phone number.",
+      "serviceLabel": "Type of service",
+      "serviceSelect": "Select…",
+      "serviceOther": "Other",
+      "serviceError": "Please select a service.",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your project, date and location…",
+      "submit": "Send request",
+      "hint": "By submitting, you'll be redirected to WhatsApp with the message ready.",
+      "success": "All set! Opening WhatsApp with your request…",
+      "waTitle": "*New quote request — HR Drone*",
+      "waName": "*Name:*",
+      "waPhone": "*Phone:*",
+      "waService": "*Service:*",
+      "waMessage": "*Message:*"
+    }
+  },
+  "footer": {
+    "description": "Professional aerial capture for real estate, businesses, events and special moments. Quality, safety and a cinematic eye.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "tagline": "Aerial Imaging · Made with precision",
+    "instaAria": "Instagram",
+    "waAria": "WhatsApp",
+    "emailAria": "Email"
+  },
+  "verse": {
+    "text": "\"The Sovereign Lord is my strength; he makes my feet like the feet of a deer, he enables me to tread on the heights.\"",
+    "ref": "Habakkuk 3:19"
+  },
+  "waMessages": {
+    "hero": "Hello! I'd like to request a quote from HR Drone.",
+    "about": "Hello! I'd like to talk about a project with HR Drone.",
+    "ctaBand": "Hello! I found your website and want to capture my project with HR Drone.",
+    "generic": "Hello HR Drone!",
+    "contactFallback": "Hello! I found the HR Drone website."
+  }
+}

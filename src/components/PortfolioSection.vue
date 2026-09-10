@@ -3,13 +3,13 @@
     <div class="max-w-container mx-auto px-5 sm:px-8">
       <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12" v-reveal>
         <div class="max-w-2xl">
-          <span class="font-mono text-[12px] tracking-[0.3em] uppercase text-mint">/ Portfólio</span>
+          <span class="font-mono text-[12px] tracking-[0.3em] uppercase text-mint">{{ t('portfolio.eyebrow') }}</span>
           <h2 class="mt-4 font-display font-bold text-white text-[clamp(2rem,4vw,3rem)] leading-[1.05] tracking-tight">
-            Trabalhos vistos de outro ângulo
+            {{ t('portfolio.title') }}
           </h2>
         </div>
         <p class="text-[15px] text-slate-300/70 md:max-w-xs">
-          Uma seleção de capturas aéreas com imagens e vídeos reais.
+          {{ t('portfolio.subtitle') }}
         </p>
       </div>
 
@@ -24,7 +24,7 @@
               ? 'bg-mint text-ink-950 border-mint shadow-lg shadow-mint/20'
               : 'glass text-slatey hover:text-white hover:border-mint/40'
           ]"
-        >{{ c }}</button>
+        >{{ t(`portfolio.categories.${c}`) }}</button>
       </div>
 
       <!-- Grid -->
@@ -40,7 +40,7 @@
           >
             <img
               v-if="item.src && item.type === 'image'"
-              :src="item.src" :alt="item.title"
+              :src="item.src" :alt="t(`portfolio.items.${item.titleKey}`)"
               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               loading="lazy"
             />
@@ -65,8 +65,8 @@
             </span>
 
             <figcaption class="absolute inset-x-0 bottom-0 z-10 p-4 sm:p-5 bg-gradient-to-t from-ink-950 via-ink-950/70 to-transparent translate-y-2 opacity-90 group-hover:translate-y-0 group-hover:opacity-100 transition">
-              <span class="inline-block font-mono text-[10px] tracking-[0.2em] uppercase text-mint mb-1.5">{{ item.cat }}</span>
-              <h3 class="font-display font-semibold text-gray-300 text-[15px] sm:text-[17px] leading-snug">{{ item.title }}</h3>
+              <span class="inline-block font-mono text-[10px] tracking-[0.2em] uppercase text-mint mb-1.5">{{ t(`portfolio.categories.${item.cat}`) }}</span>
+              <h3 class="font-display font-semibold text-gray-300 text-[15px] sm:text-[17px] leading-snug">{{ t(`portfolio.items.${item.titleKey}`) }}</h3>
             </figcaption>
             <span class="absolute top-3 left-3 z-10 font-mono text-[9px] tracking-wider text-white/30 select-none">{{ item.code }}</span>
           </figure>
@@ -78,11 +78,13 @@
 
 <script setup>
 import { ref, computed, onMounted, nextTick } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { categories, portfolioItems } from '../data/portfolio.js'
 
-const activeCat = ref('Todos')
+const { t } = useI18n()
+const activeCat = ref('all')
 const filtered = computed(() =>
-  activeCat.value === 'Todos' ? portfolioItems : portfolioItems.filter(p => p.cat === activeCat.value)
+  activeCat.value === 'all' ? portfolioItems : portfolioItems.filter(p => p.cat === activeCat.value)
 )
 
 const isMobile = window.matchMedia('(hover: none) and (pointer: coarse)').matches

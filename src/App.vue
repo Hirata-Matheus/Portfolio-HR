@@ -33,7 +33,8 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, watchEffect } from 'vue'
+import { useI18n } from 'vue-i18n'
 import TheHeader       from './components/TheHeader.vue'
 import HeroSection     from './components/HeroSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
@@ -49,6 +50,12 @@ import LazySection     from './components/LazySection.vue'
 import { useTweaks }   from './composables/useTweaks.js'
 
 const { applyTweaks } = useTweaks()
+const { t } = useI18n()
 
 onMounted(() => applyTweaks())
+
+watchEffect(() => {
+  document.title = t('meta.title')
+  document.querySelector('meta[name="description"]')?.setAttribute('content', t('meta.description'))
+})
 </script>

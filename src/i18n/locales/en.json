@@ -119,6 +119,7 @@
     "eyebrow": "/ Contact",
     "title": "Let's get your project off the ground",
     "subtitle": "Tell us what you need captured. We reply quickly with the best options for your goal.",
+    "coverage": { "label": "We serve", "more": "and other nearby cities" },
     "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "Email" },
     "form": {
       "nameLabel": "Name",

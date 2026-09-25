@@ -119,6 +119,7 @@
     "eyebrow": "/ İletişim",
     "title": "Projenizi hayata geçirelim",
     "subtitle": "Neyi çekmemiz gerektiğini bize anlatın. Hedefiniz için en iyi seçeneklerle hızlıca yanıt veriyoruz.",
+    "coverage": { "label": "Hizmet verdiğimiz yerler", "more": "ve çevredeki diğer şehirler" },
     "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "E-posta" },
     "form": {
       "nameLabel": "Ad",

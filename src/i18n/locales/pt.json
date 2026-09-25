@@ -119,6 +119,7 @@
     "eyebrow": "/ Contato",
     "title": "Vamos tirar seu projeto do chão",
     "subtitle": "Conte o que você precisa capturar. Respondemos rápido com as melhores opções para o seu objetivo.",
+    "coverage": { "label": "Atendemos", "more": "e outras cidades da região" },
     "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "E-mail" },
     "form": {
       "nameLabel": "Nome",

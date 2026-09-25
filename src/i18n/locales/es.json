@@ -119,6 +119,7 @@
     "eyebrow": "/ Contacto",
     "title": "Hagamos despegar tu proyecto",
     "subtitle": "Cuéntanos qué necesitas capturar. Respondemos rápido con las mejores opciones para tu objetivo.",
+    "coverage": { "label": "Atendemos", "more": "y otras ciudades cercanas" },
     "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "Correo electrónico" },
     "form": {
       "nameLabel": "Nombre",

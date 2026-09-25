@@ -119,6 +119,7 @@
     "eyebrow": "/ Contact",
     "title": "Faisons décoller votre projet",
     "subtitle": "Dites-nous ce que vous souhaitez capturer. Nous répondons rapidement avec les meilleures options pour votre objectif.",
+    "coverage": { "label": "Nous intervenons à", "more": "et dans d'autres villes voisines" },
     "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "E-mail" },
     "form": {
       "nameLabel": "Nom",

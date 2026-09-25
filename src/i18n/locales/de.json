@@ -119,6 +119,7 @@
     "eyebrow": "/ Kontakt",
     "title": "Bringen wir Ihr Projekt zum Fliegen",
     "subtitle": "Erzählen Sie uns, was Sie festhalten möchten. Wir antworten schnell mit den besten Optionen für Ihr Ziel.",
+    "coverage": { "label": "Wir sind tätig in", "more": "und weiteren Städten der Region" },
     "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "E-Mail" },
     "form": {
       "nameLabel": "Name",

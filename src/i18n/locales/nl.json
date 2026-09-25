@@ -119,6 +119,7 @@
     "eyebrow": "/ Contact",
     "title": "Laten we jouw project van de grond krijgen",
     "subtitle": "Vertel ons wat je wilt vastleggen. Wij reageren snel met de beste opties voor jouw doel.",
+    "coverage": { "label": "Wij zijn actief in", "more": "en andere nabijgelegen steden" },
     "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "E-mail" },
     "form": {
       "nameLabel": "Naam",

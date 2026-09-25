@@ -119,6 +119,7 @@
     "eyebrow": "/ Kontakt",
     "title": "Zacznijmy realizację Twojego projektu",
     "subtitle": "Powiedz nam, co chcesz uchwycić. Odpowiadamy szybko z najlepszymi opcjami dla Twojego celu.",
+    "coverage": { "label": "Działamy w", "more": "i innych pobliskich miastach" },
     "channels": { "whatsapp": "WhatsApp", "instagram": "Instagram", "email": "E-mail" },
     "form": {
       "nameLabel": "Imię",

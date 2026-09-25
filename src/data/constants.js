@@ -1,4 +1,4 @@
-export const phoneIntl    = '5518981765530'
+export const phoneIntl    = '5518998104185'
 export const phoneDisplay = '(18) 98176-5530'
 export const instaHandle  = '@_hrdrone'
 export const instaUrl     = 'https://www.instagram.com/_hrdrone'
@@ -6,6 +6,10 @@ export const email        = 'orcamentos@hr-drone.com.br'
 
 export const waLink = (msg) =>
   `https://wa.me/${phoneIntl}?text=${encodeURIComponent(msg)}`
+
+export const coverageCities = [
+  'Birigui', 'Araçatuba', 'Coroados', 'Penápolis', 'Guararapes', 'Buritama', 'Bilac',
+]
 
 export const nav = [
   { id: 'inicio' },

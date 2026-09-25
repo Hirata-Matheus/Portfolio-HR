@@ -1,5 +1,5 @@
 <template>
-  <div ref="sentinel">
+  <div ref="sentinel" :id="mounted ? null : anchorId" :class="{ 'scroll-mt-[84px]': anchorId }">
     <slot v-if="mounted" />
     <div v-else :style="{ minHeight: placeholder }" aria-hidden="true" />
   </div>
@@ -11,6 +11,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 const props = defineProps({
   placeholder: { type: String, default: '40vh' },
   margin:      { type: String, default: '400px' },
+  anchorId:    { type: String, default: null },
 })
 
 const sentinel = ref(null)
@@ -18,18 +19,24 @@ const mounted  = ref(false)
 
 let io
 
+function forceMount() {
+  mounted.value = true
+  io?.disconnect()
+}
+
 onMounted(() => {
   io = new IntersectionObserver(
     ([entry]) => {
-      if (entry.isIntersecting) {
-        mounted.value = true
-        io.disconnect()
-      }
+      if (entry.isIntersecting) forceMount()
     },
     { rootMargin: props.margin }
   )
   io.observe(sentinel.value)
+  window.addEventListener('force-mount-lazy', forceMount)
 })
 
-onUnmounted(() => io?.disconnect())
+onUnmounted(() => {
+  io?.disconnect()
+  window.removeEventListener('force-mount-lazy', forceMount)
+})
 </script>

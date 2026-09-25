@@ -15,6 +15,21 @@
           </p>
         </div>
 
+        <div v-reveal="80" class="mt-7">
+          <span class="inline-flex items-center gap-1.5 font-mono text-[11.5px] tracking-[0.2em] uppercase text-slatey/60">
+            <span class="ms text-[15px] text-mint">location_on</span>{{ t('contact.coverage.label') }}
+          </span>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <span v-for="city in coverageCities" :key="city"
+                  class="px-3.5 py-1.5 rounded-full glass text-[13px] font-medium text-slate-200/90">
+              {{ city }}
+            </span>
+            <span class="px-3.5 py-1.5 rounded-full bg-mint/10 border border-mint/25 text-[13px] font-medium text-mint">
+              {{ t('contact.coverage.more') }}
+            </span>
+          </div>
+        </div>
+
         <div class="mt-9 space-y-3">
           <a v-for="(ch, i) in channelsResolved" :key="ch.id"
              v-reveal="120 + i * 80"
@@ -95,7 +110,7 @@
 <script setup>
 import { reactive, ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { channels, services, waLink } from '../data/constants.js'
+import { channels, services, waLink, coverageCities } from '../data/constants.js'
 
 const { t } = useI18n()
 

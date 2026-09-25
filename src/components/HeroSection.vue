@@ -19,7 +19,7 @@
         </div>
 
         <h1 v-reveal class="font-display font-bold text-white leading-[1.02] tracking-[-0.02em] text-[clamp(2.6rem,7vw,5.2rem)]">
-          {{ t('hero.titleLine1') }}<br class="hidden sm:block" />
+          {{ t('hero.titleLine1') }} <br class="hidden sm:block" />
           <span class="grad-text">{{ t('hero.titleHighlight') }}</span> {{ t('hero.titleSuffix') }}
         </h1>
 

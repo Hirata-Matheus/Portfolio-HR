@@ -1,6 +1,6 @@
 # HR Drone — Aerial Imaging Portfolio
 
-Professional drone photography and videography portfolio website for **HR Drone**, showcasing aerial footage for real estate, events, corporate clients and social media content.
+Professional drone photography and videography portfolio website for **HR Drone**, showcasing aerial footage for real estate, events, corporate, weddings, clients and social media content.
 
 ---
 

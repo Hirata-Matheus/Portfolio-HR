@@ -1,7 +1,7 @@
 // Dados fixos do site — os mesmos valores usados na versão atual do hr-drone.com.br.
 
-export const WA_NUMBER = '5518981765530'
-export const PHONE_DISPLAY = '(18) 98176-5530'
+export const WA_NUMBER = '5518998104185'
+export const PHONE_DISPLAY = '(18) 99810-4185'
 export const INSTAGRAM_HANDLE = '@_hrdrone'
 export const INSTAGRAM_URL = 'https://www.instagram.com/_hrdrone'
 export const EMAIL = 'orcamentos@hr-drone.com.br'

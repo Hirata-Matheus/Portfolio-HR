@@ -1,5 +1,8 @@
+import hrV2 from './src/v2/tailwind.preset.js'
+
 /** @type {import('tailwindcss').Config} */
 export default {
+  presets: [hrV2],
   content: [
     './index.html',
     './src/**/*.{vue,js,ts}',

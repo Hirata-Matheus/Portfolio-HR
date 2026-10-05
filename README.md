@@ -21,35 +21,33 @@ Professional drone photography and videography portfolio website for **HR Drone*
 
 ```
 ├── index.html
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
+├── vercel.json            → SPA rewrite (rotas funcionam ao recarregar)
 ├── public/
-│   ├── Drone/          → symlink to ../Drone (local media assets, git-ignored)
-│   └── images/         → symlink to ../src/images
+│   ├── Drone/             → symlink to ../Drone (local media assets)
+│   └── images/
 └── src/
-    ├── main.js                  # App entry + global directives (v-reveal)
-    ├── App.vue                  # Root component
-    ├── assets/
-    │   └── main.css             # Tailwind directives + global custom CSS
-    ├── components/
-    │   ├── TheHeader.vue        # Fixed navigation header
-    │   ├── HeroSection.vue      # Full-screen hero with background video
-    │   ├── ServicesSection.vue  # Services grid
-    │   ├── PortfolioSection.vue # Filterable photo/video grid
-    │   ├── AboutSection.vue     # About + differentials
-    │   ├── ProcessSection.vue   # 4-step workflow
-    │   ├── CtaBand.vue          # Call-to-action banner
-    │   ├── ContactSection.vue   # Contact info + WhatsApp quote form
-    │   ├── TheFooter.vue        # Footer with nav and social links
-    │   └── TweaksPanel.vue      # Live theme/appearance panel
-    ├── composables/
-    │   ├── useTweaks.js         # Reactive theme state (dark/light, fonts, corners)
-    │   └── useScrolled.js       # Scroll position for header style
-    └── data/
-        ├── constants.js         # Contact info, nav, services, process steps
-        └── portfolio.js         # Portfolio items (images + videos)
+    ├── main.js            # App entry: router + i18n (+ v2 messages) + Vercel analytics
+    ├── assets/main.css    # Tailwind directives
+    ├── i18n/              # 8 idiomas (locales/*.json)
+    └── v2/                # Site multipágina (ver abaixo)
+        ├── App.vue, router.js
+        ├── views/         # Home, Services, Portfolio, About, Contact
+        ├── components/    # layout/, home/, shared/
+        ├── composables/   # motion.js (GSAP + Lenis), ui.js
+        ├── data/          # site.js (contatos, cidades), portfolio.js (itens)
+        ├── i18n/messages.js  # textos novos nos 8 idiomas
+        └── styles/hr-v2.css
 ```
+
+Rotas: `/`, `/servicos`, `/portfolio`, `/sobre`, `/contato`.
+Stack extra: vue-router, GSAP (ScrollTrigger/SplitText), Lenis, motion-v.
+
+| Quero mudar… | Arquivo |
+|---|---|
+| WhatsApp, telefone, Instagram, e-mail, cidades | `src/v2/data/site.js` |
+| Itens do portfólio e fotos de cada página | `src/v2/data/portfolio.js` |
+| Textos novos (todos os idiomas) | `src/v2/i18n/messages.js` |
+| Cores e espaçamentos | `src/v2/styles/hr-v2.css` |
 
 ---
 
